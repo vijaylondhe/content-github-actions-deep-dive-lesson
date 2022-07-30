@@ -104,5 +104,5 @@ jobs:
             aws lambda update-function-code \
             --function-name my-function \
             --s3-bucket mygithub-action-artifacts-815 \
-            --s3-key ${{ github.sha }}.zip
+            --s3-key ${{ github.sha }}.zip \
             --publish
