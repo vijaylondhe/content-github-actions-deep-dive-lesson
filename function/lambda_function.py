@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     Returns:
         string: greeting response
     """
-    print('Starting functions\n---------------------------------------------')
+    print('Starting function\n---------------------------------------------')
 
     if event["input"] == "Hello":
 
